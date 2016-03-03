@@ -6,7 +6,7 @@ function updateCountdown() {
 function moneyforletters() {
     var typed = 0.05* jQuery('.message').val().length
     cashconvert = typed.toFixed(2);
-    $('#blog_fee').text(cashconvert);
+    $('#blog_fee').val(cashconvert);
 }
 
 jQuery(document).ready(function($) {
